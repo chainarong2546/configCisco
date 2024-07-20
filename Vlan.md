@@ -34,7 +34,7 @@ Switch(config-if)# exit
 Switch(config)#
 ```
 
-### 4. ตรวจสอบการตั้งค่า
+## ตรวจสอบการตั้งค่า Vlan
 
 ใช้คำสั่ง `show vlan brief` เพื่อดูการตั้งค่า VLAN ที่สร้างขึ้น
 

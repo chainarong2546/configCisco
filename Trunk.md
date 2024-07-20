@@ -34,7 +34,7 @@ Switch(config-if)# exit
 Switch(config)#
 ```
 
-### 4. ตรวจสอบการตั้งค่า
+## ตรวจสอบการตั้งค่า Trunk
 
 ใช้คำสั่ง `show interface trunk` เพื่อดูการตั้งค่าของพอร์ต Trunk
 

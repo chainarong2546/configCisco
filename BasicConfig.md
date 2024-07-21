@@ -30,5 +30,7 @@ Router(config)# logging synchronous
 Router(config)# interface [ชื่ออินเตอร์เฟส]
 Router(config-if)# ip address [IP Address] [Subnet Mask]
 Router(config-if)# no shutdown
+Router(config-if)# duplex full
+Router(config-if)# speed 1000
 Router(config-if)# exit
 ```

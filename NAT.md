@@ -44,7 +44,7 @@ Router# configure terminal
 Router(config)#
 ```
 
-### 2. กำหนด Pool ของ IP ภายนอก
+### 2. กำหนด Pool ของ IP ภายนอก (ทำหรือไม่ทำก็ได้)
 
 ``` CLI
 Router(config)# ip nat pool MY_POOL 203.0.113.10 203.0.113.20 netmask 255.255.255.0
@@ -60,6 +60,12 @@ Router(config)# access-list 1 permit 192.168.1.0 0.0.0.255
 
 ``` CLI
 Router(config)# ip nat inside source list 1 pool MY_POOL overload
+```
+
+หรือ
+
+``` CLI
+Router(config)# ip nat inside source list 1 interface <INTERFACE NAME> overload
 ```
 
 ### 5. กำหนด Interfaces

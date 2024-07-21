@@ -24,7 +24,7 @@ Router(config)# line console 0
 Router(config)# logging synchronous
 ```
 
-## ตั้งค่า IP Address ให้กับ แต่ละ Interface
+## ตั้งค่า IP Address, Duplex, Speed ให้กับ แต่ละ Interface
 
 ``` CLI
 Router(config)# interface [ชื่ออินเตอร์เฟส]

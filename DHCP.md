@@ -53,11 +53,11 @@ Router# show ip dhcp binding
 Router# show ip dhcp pool
 ```
 
-# การตั้งค่า DHCP Relay (IP Helper)
+## การตั้งค่า DHCP Relay (IP Helper)
 
 หากมี DHCP Server อยู่ในเครือข่ายอื่นและต้องการให้ router ของคุณทำหน้าที่เป็น relay สำหรับ DHCP Requests
 
-### 1. เข้าสู่โหมด Configuration
+### 1. เข้าสู่โหมด Configuration_
 
 ``` CLI
 Router> enable
@@ -112,3 +112,5 @@ Router(config)# exit
 Router# show ip dhcp binding
 Router# show ip dhcp pool
 ```
+
+test
